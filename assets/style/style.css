@@ -1,0 +1,26 @@
+.container {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.content-container {
+    background-color: rgb(107, 58, 17);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container h5 {
+    font-size: larger;
+}
+
+.content-container a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
